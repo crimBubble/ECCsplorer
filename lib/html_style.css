@@ -1,0 +1,24 @@
+<head>
+    <title> eccPipe summary </title>
+    <style>
+    table { background:#FFFFFF;
+    border:1px solid grey;
+    border-collapse:collapse;
+    color:#FFFFFF;
+    font:normal 11px verdana, arial, helvetica, sans-serif;
+    }
+    td, th { color:#333333;
+    padding:.4em;
+    text-align:left;
+    vertical-align:top;
+    }
+    .seqcell { max-width:80ch;
+    word-wrap:break-word;
+    font-family: monospace;
+    font-size: 9px;
+    }
+    tr:hover { background:#EEEEEE;
+    border:1px dashed #CCCCCC;
+    }
+    </style>
+</head>
