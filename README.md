@@ -102,4 +102,4 @@ The ECCsplorer pipeline will check if all 3rd party tools are available before s
 
 ## How to cite
 
-Mann L, Seibt KM, Weber B, Heitkam T. (2020). ECCsplorer: detection of extrachromosomal circular DNA (eccDNA) from NGS data. Biopolis Dresden PhD Symposium 2020, CRTD, Dresden, Germany: Zenodo. http://doi.org/10.5281/zenodo.4017245
+Mann L, Seibt KM, Weber B, Heitkam T. (2020). ECCsplorer: detection of extrachromosomal circular DNA (eccDNA) from NGS data. 4th Uppsala Transposon Symposium (#UppTransposon2020), Uppsala, Sweden (virtual): Zenodo. http://doi.org/10.5281/zenodo.4017252
