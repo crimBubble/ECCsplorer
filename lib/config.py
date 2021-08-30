@@ -189,7 +189,7 @@ BLAST_CMD = '{path_} -query {fasta_} -out {m6_} -db {database_} {add_}'
 SEGEMEHL_CMD = '{path_} --index {refidx_} --database {ref_} ' \
                '--query {r1_} --mate {r2_} ' \
                '--threads {cpu_} ' \
-               '--outfile {out_} --unmatched {unout_} ' \
+               '--outfile {out_} --nomatchfilename {unout_} ' \
                '--splits --briefcigar --MEOP ' + SEGEMEHL_ACCURACY
 HAARZ_CMD = '{path_} split --files {files_} ' + HAARZ_QUAL + ' > {out_}'
 
