@@ -33,29 +33,55 @@ Recommended data
 ### ECCsplorer command line options
 
 ```bash
-$python ECCsplorer.py <read_files> [optional arguments]
+python ECCsplorer.py <read_files> [optional arguments]
 ```
 Short read paired-end sequencing data might be in FASTA or (compressed) FASTQ format in separated files. For usage specify either second/control read data or a reference (genome) sequence (for details see manual):
 
 ```bash
-$python ECCsplorer.py readsA1.fa/q readsA2.fa/q readsB1.fa/q readsB2.fa/q
+python ECCsplorer.py readsA1.fa/q readsA2.fa/q readsB1.fa/q readsB2.fa/q
 ```
 or 
 ```bash
-$python ECCsplorer.py readsR1.fa/q readsR2.fa/q -ref sequence.fa
+python ECCsplorer.py readsR1.fa/q readsR2.fa/q -ref sequence.fa
 ```
 
 The first command will run the clustering module the second command will run the mapping module. Best results are achieved by inclusion of the comparative module by providing control read data and reference sequence (for details see manual), using:
 
 ```bash
-$python ECCsplorer.py readsA1.fa/q readsA2.fa/q readsB1.fa/q readsB2.fa/q -ref sequence.fa [optional arguments] 
+python ECCsplorer.py readsA1.fa/q readsA2.fa/q readsB1.fa/q readsB2.fa/q -ref sequence.fa [optional arguments] 
 ```
 For an overview on all optional arguments use:
 
 ```bash
- $python ECCsplorer.py –h/--help.
+ python ECCsplorer.py –h/--help.
 ```
 ## How to install ECCsplorer
+
+### Installation using conda
+
+```bash
+git clone https://github.com/crimBubble/ECCsplorer
+
+cd ECCsplorer
+```
+
+Installation of dependencies can be done using a [conda environment](https://docs.conda.io/projects/conda/en/latest/). The required environment can be prepared using the following command (includes dependencies for RepeatExplorer2, solving the environment may take a while):
+
+```bash
+conda env create -f environment.yml
+```
+
+Activate the environment:
+
+```bash
+conda activate eccsplorer
+```
+
+Install RepeatExplorer2 following the [manual](https://bitbucket.org/petrnovak/repex_tarean/src/devel/) without(!) creating a new conda environment.
+
+Edit the "Locations of 3rd party tools (PATH)" for Trimmomatic and RepeatExploer2 in *ECCsplorer/lib/config.py* to match your installation. 
+
+### Manual installation
 
 Once you have downloaded the pipeline and installed python packages, R libraries and 3rd party tools, the ECCsplorer.py script can be run in place. Optionally, the pipeline directory can be added to the ```$PATH``` environment variable.
 
