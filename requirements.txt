@@ -1,0 +1,4 @@
+numpy
+biopython
+scipy
+pyRserve
