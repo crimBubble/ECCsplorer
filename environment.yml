@@ -1,0 +1,48 @@
+name: eccsplorer
+channels:
+  - iuc
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python 3.7.*
+  - pip
+  - compilers
+  - pyrserve 0.9.1
+  - last >=956
+  - mafft
+  - imagemagick
+  - blast
+  - diamond 0.9.29
+  - blast-legacy
+  - r-igraph
+  - r-data.tree
+  - r-stringr
+  - r-r2html
+  - r-hwriter
+  - r-dt
+  - r-scales
+  - r-plotrix
+  - r-png
+  - r-plyr
+  - r-dplyr
+  - r-optparse
+  - r-dbi
+  - r-rsqlite
+  - r-rserve
+  - r-ggplot2
+  - r-ggrepel
+  - r-gridbase
+  - r-gridextra
+  - bioconductor-biostrings
+  - blast 2.2.31
+  - trimmomatic
+  - segemehl
+  - samtools >=1.9
+  - bedtools >=2.28.0
+  - pip:
+    - numpy
+    - biopython
+    - scipy
+    - pyRserve
+
