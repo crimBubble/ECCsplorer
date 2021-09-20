@@ -8,7 +8,7 @@ Three random parts of the sugar beet (Beta vulgaris) reference genome [EL10](htt
 The sugar beet LTR-retrotransposon [*Beetle7*](https://www.ncbi.nlm.nih.gov/nuccore/408362947) ([Weber *et al.*, 2013](https://dx.doi.org/10.1186%2F1759-8753-4-8)) is used as simulated circular DNA as well as annotation reference. 
 The test-data reads have been simulated from both references (genome and annotation reference¹) using [dwgsim](https://github.com/nh13/DWGSIM) with standard parameters.
 
-Download test-data using [E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK179288/) from NCBI:
+Download test-data references using [E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK179288/) from NCBI:
 
 ```{bash}
 cd /.../ECCsplorer/testdata
