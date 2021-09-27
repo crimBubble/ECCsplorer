@@ -116,12 +116,14 @@ install.packages(c("ggplot2", "ggrepel", "grid", "gridExtra", "dplyr"))
 Install 3rd party tools following their installation instructions:
 
 - [NCBI blast+ (v2.2.28 or higher)](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
-- [Trimmomatic (optional)](http://www.usadellab.org/cms/?page=trimmomatic)
+- [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) (optional)
     - needed for using -trm/--trim_reads option and using compressed files as input.
 - [segemehl (including haarz)](https://www.bioinf.uni-leipzig.de/Software/segemehl/)
 - [samtools (1.9 or higher)](https://github.com/samtools/samtools) 
 - [bedtools (v2.28.0 or higher)](https://bedtools.readthedocs.io/en/latest/content/installation.html)
 - [RepeatExplorer2](https://bitbucket.org/petrnovak/repex_tarean/src/devel/)
+- [seqtk](https://github.com/lh3/seqtk) (optional)
+    - improves performance for file convertion, but not essential.
 
 After installing 3rd party tools you might need to add them to the ```$PATH``` environment variable or specify the location of their executables in the lib/config.py file (for details see manual). 
 The ECCsplorer pipeline will check if all 3rd party tools are available before starting its modules.
