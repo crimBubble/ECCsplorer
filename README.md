@@ -130,4 +130,4 @@ The ECCsplorer pipeline will check if all 3rd party tools are available before s
 
 ## How to cite
 
-Mann L, Seibt KM, Weber B, Heitkam T. (2021). ECCsplorer: a pipeline to detect extrachromosomal circular DNA (eccDNA) from next-generation sequencing data. bioRxiv 2021.06.08.447410 (preprint). https://doi.org/10.1101/2021.06.08.447410 
+Mann, L., Seibt, K.M., Weber, B. , Heitkam, T. ECCsplorer: a pipeline to detect extrachromosomal circular DNA (eccDNA) from next-generation sequencing data. BMC Bioinformatics 23, 40 (2022). https://doi.org/10.1186/s12859-021-04545-2
