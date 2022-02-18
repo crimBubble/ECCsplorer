@@ -1,11 +1,11 @@
 name: eccsplorer
 channels:
-  - iuc
-  - bioconda
-  - conda-forge
   - defaults
+  - conda-forge
+  - bioconda
+  - iuc
 dependencies:
-  - python 3.7.*
+  - python 3.7.10
   - pip
   - compilers
   - pyrserve 0.9.1
