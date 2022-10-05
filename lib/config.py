@@ -22,8 +22,8 @@ import os
 # TODO: PATH values can be modified if necessary
 
 # Trimmomatic
-TRIM_PATH = '~/local/bin/Trimmomatic/trimmomatic-0.38.jar'
-TRIM_ADAPTER_PATH = '~/local/bin/Trimmomatic/adapters'
+TRIM_PATH = 'trimmomatic'
+TRIM_ADAPTER_PATH = '~/miniconda3/envs/eccsplorer/share/trimmomatic/adapters/'
 
 # seqtk
 SEQTK_PATH = 'seqtk'
@@ -173,7 +173,7 @@ REPEX_FOLD_COV = 0.1  # standard_value = 0.1
 RSERVE_CMD = 'R CMD Rserve --RS-port {port_} -q --no-save'
 
 # Trimmomatic
-TRIM_CMD = 'java -jar {path_} PE -threads {cpu_} {R1_} {R2_} ' \
+TRIM_CMD = '{path_} PE -threads {cpu_} {R1_} {R2_} ' \
            '{out_}/{pre_}-R1_trim.fq {out_}/{pre_}-R1_utrim.fq ' \
            '{out_}/{pre_}-R2_trim.fq {out_}/{pre_}-R2_utrim.fq ' \
            'ILLUMINACLIP:' + TRIM_ADAPTER_PATH + '/{adapter_}' + TRIM_ILLUMINACLIP + ' ' \
