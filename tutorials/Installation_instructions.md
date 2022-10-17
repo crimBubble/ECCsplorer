@@ -1,14 +1,14 @@
 # Installation instructions #
 -------------------------------------------------------------------------------
 
-Detailed installation instructions:
+Here you find detailed installation instructions for:
 
-1. Installation using conda envs (advanced user)
-2. Installation instructions (step-by-step)
-3. Manual installation
+1. Installation using conda envs (quick-guide)
+2. Installation using conda envs (detailed step-by-setp instructions)
+3. Manual installation (old)
 
 
-### 1. Installation using conda envs (advanced user)
+### 1. Installation using conda envs (quick-guide)
 
 ```bash
 git clone https://github.com/crimBubble/ECCsplorer
@@ -33,7 +33,7 @@ Install RepeatExplorer2 following the [manual](https://bitbucket.org/petrnovak/r
 Edit the "Locations of 3rd party tools (PATH)" for Trimmomatic and RepeatExploer2 in *ECCsplorer/lib/config.py* to match your installation.
 
 
-### 2. Installation instructions (setp-by-step)
+### 2. Installation using conda envs (detailed step-by-setp instructions)
 
 The following instructions are a step-by-step tutorial with no previous knowledge required. The installation is based on the use of conda environments. If you have already installed conda on your machine continue from step 2.
 
@@ -104,6 +104,11 @@ conda deactivate
 ```
 
 If the installation was successful, the pipline will finish with the statement: ```INFO: Thanks for using ECCsplorer!```. You can find the exemplary output files in the ```test_run``` directory.
+
+8. (Optional) Install seqtk a fast and lightweight tool for processing sequences. This speeds up the running time for some steps in the pipeline.
+```bash
+conda install -c bioconda seqtk -y
+```
 
 
 ### 3. Manual installation
