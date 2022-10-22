@@ -37,7 +37,7 @@ or download the files manually from NCBI and rename and concatenate the chromoso
 For testing the ECCsplorer pipeline installation run:
 
 ```{bash}
-python3 ECCsplorer.py testdata/aDNA_R1.fastq testdata/aDNA_R2.fastq testdata/gDNA_R1.fastq testdata/gDNA_R2.fastq --reference_genome testdata/RefGenomeSeq.fa --database testdata/RefSeq_DB.fa --output_dir testdata --trim_reads tru3
+python3 ECCsplorer.py testdata/aDNA_R1.fastq testdata/aDNA_R2.fastq testdata/gDNA_R1.fastq testdata/gDNA_R2.fastq --reference_genome testdata/RefGenomeSeq.fa --database testdata/RefSeq_DB.fa --output_dir testdata --trim_reads tru3 --read_count 1000
 ```
 
 Note 1: As the annotation reference is a LTR-retrotransposon the reads have been simulated considering LTR-LTR-junctions and solo-LTR-junctions for the circularization.
