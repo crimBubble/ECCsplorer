@@ -17,6 +17,8 @@ The ECCsplorer is a bioinformatics pipeline for the automated detection of extra
 
 ## How to use ECCsplorer
 
+Find detailed instructions on how to use the ECCsplorer pipeline here: [Mini-workshop (usage of ECCsplorer)](https://github.com/crimBubble/ECCsplorer/blob/master/tutorials/Mini-workshop.md)
+
 ECCsplorer is started over the linux command line interface.
 
 Minimum data requirements
@@ -55,6 +57,7 @@ For an overview on all optional arguments use:
 ```bash
  python ECCsplorer.py –h/--help.
 ```
+
 ## How to install ECCsplorer
 
 see [Installation instructions](https://github.com/crimBubble/ECCsplorer/blob/master/tutorials/Installation_instructions.md).
