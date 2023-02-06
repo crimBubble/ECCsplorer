@@ -434,7 +434,7 @@ class eccMapper:
 
         max_coverage = subprocess.check_output(shlex.split(cmd_getmaxdepth))
 
-        min_coverage_allowed = int(int(max_coverage) * config.BACKGROUND_PERC)
+        min_coverage_allowed = int(float(max_coverage) * config.BACKGROUND_PERC)
 
         os.system('awk \'$4 > {min_cov_}\' {in_} | '
                   'bedtools merge -d {merge_} -i stdin | '
