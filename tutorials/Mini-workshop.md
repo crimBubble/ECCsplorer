@@ -3,6 +3,8 @@
 
 **Follow these instructions to learn how to use the ECCsplorer pipeline.**
 
+Have a look at the accompanying [Youtube-video](https://www.youtube.com/watch?v=0Z6fYV4voiM).
+
 The example commands shown in the following assume that the detailed instructions for [(2.) installation using conda envs](https://github.com/crimBubble/ECCsplorer/blob/master/tutorials/Installation_instructions.md) were used (*see* Note 0). Note that the instructions are meant to be used step-by-step (some commands require previous ones to be run before, e.g. directory changes).
 
 Open a command line window (terminal/powershell/etc.) and when working on a server (or VM) login with ```ssh```:
