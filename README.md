@@ -17,7 +17,7 @@ The ECCsplorer is a bioinformatics pipeline for the automated detection of extra
 
 ## How to use ECCsplorer
 
-Find detailed instructions on how to use the ECCsplorer pipeline here: [Mini-workshop (usage of ECCsplorer)](https://github.com/crimBubble/ECCsplorer/blob/master/tutorials/Mini-workshop.md)
+Find detailed instructions on how to use the ECCsplorer pipeline here: [Mini-workshop (usage of ECCsplorer)](https://github.com/crimBubble/ECCsplorer/blob/master/tutorials/Mini-workshop.md) and the accompanying [Youtube-video](https://www.youtube.com/watch?v=0Z6fYV4voiM).
 
 ECCsplorer is started over the linux command line interface.
 
