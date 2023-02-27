@@ -40,7 +40,7 @@ HAARZ_PATH = 'haarz.x'
 
 # SAMtools
 SAMTOOLS_PATH = 'samtools'
-git config --global --add safe.directory /mnt/Storage_3TB/Ludwig_Storage/Dauerdaten/Projects/ECCsplorer/working
+
 # BEDtools
 BEDTOOLS_PATH = 'bedtools'
 
