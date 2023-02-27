@@ -40,7 +40,7 @@ HAARZ_PATH = 'haarz.x'
 
 # SAMtools
 SAMTOOLS_PATH = 'samtools'
-
+git config --global --add safe.directory /mnt/Storage_3TB/Ludwig_Storage/Dauerdaten/Projects/ECCsplorer/working
 # BEDtools
 BEDTOOLS_PATH = 'bedtools'
 
@@ -213,7 +213,7 @@ REPEX_CMD = '{path_} ' \
 # TODO: Changing pipeline values, dictionaries, and lists can corrupt pipeline
 
 # Version
-VERSION = 'v0.9b'
+VERSION = 'v0.9b_dev'
 PRJ_NAME = 'eccpipe'  # absolute path for R os.path.abspath(os.path.dirname(PRJ_NAME))
 
 # Pipeline running modes
