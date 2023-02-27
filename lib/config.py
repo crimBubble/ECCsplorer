@@ -213,7 +213,7 @@ REPEX_CMD = '{path_} ' \
 # TODO: Changing pipeline values, dictionaries, and lists can corrupt pipeline
 
 # Version
-VERSION = 'v0.9b_dev'
+VERSION = 'v0.9b'
 PRJ_NAME = 'eccpipe'  # absolute path for R os.path.abspath(os.path.dirname(PRJ_NAME))
 
 # Pipeline running modes
