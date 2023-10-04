@@ -22,6 +22,12 @@ Installation of dependencies can be done using a [conda environment](https://doc
 conda env create -f environment.yml
 ```
 
+If the creation of the environment fails due to dependency errors, try:
+
+```bash
+CONDA_CHANNEL_PRIORITY=flexible conda env create -f environment.yml
+```
+
 Activate the environment:
 
 ```bash
@@ -63,6 +69,14 @@ cd ~/Documents
 git clone https://github.com/crimBubble/ECCsplorer
 cd ECCsplorer
 mamba env create -f environment.yml
+```
+If the creation of the environment fails due to dependency errors, try:
+
+```bash
+CONDA_CHANNEL_PRIORITY=flexible mamba env create -f environment.yml
+```
+
+```bash
 cd ~/miniconda3/envs/eccsplorer/bin
 mv ~/Documents/ECCsplorer/ ECCsplorer
 ln -s ECCsplorer/ECCsplorer.py eccsplorer
